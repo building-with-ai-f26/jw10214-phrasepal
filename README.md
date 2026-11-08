@@ -4,7 +4,7 @@
 
 > **One-line pitch:** SceneSpeak helps non-native English speakers learn professional English from the best: paste what you read or heard today (a reading, a lecture, or a podcast), see each key phrase explained in simple English with a real-life scene, then practice using it yourself.
 
-- **Builder:** Jiaping (Jenny) Wang (`@jw10214`)
+- **Builder:** Jiaping Wang (`@jw10214`)
 - **Pod:** Pod 8
 - **Product Page & Living PRD:** https://building-with-ai-f26.github.io/jw10214-scenespeak/
 - **App:** runs locally through Week 4; add a cloud URL in Build 5.
