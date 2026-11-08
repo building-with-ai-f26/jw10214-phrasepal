@@ -1,10 +1,12 @@
-# [Project Name]
+# SceneSpeak
 
-> **One-line pitch:** [Who is this for, and what job does it do for them?]
+**See the scene. Say it right.**
 
-- **Builder:** [Your Name] (`@github-handle`)
-- **Pod:** [Pod Name / Number]
-- **Product Page & Living PRD:** [Add your GitHub Pages URL]
+> **One-line pitch:** SceneSpeak helps non-native English speakers learn professional English from the best: paste what you read or heard today (a reading, a lecture, or a podcast), see each key phrase explained in simple English with a real-life scene, then practice using it yourself.
+
+- **Builder:** Jiaping (Jenny) Wang (`@jw10214`)
+- **Pod:** Pod 8
+- **Product Page & Living PRD:** https://building-with-ai-f26.github.io/jw10214-scenespeak/
 - **App:** runs locally through Week 4; add a cloud URL in Build 5.
 
 ## Start here: Build 1
@@ -38,9 +40,8 @@ Create your PostHog account in Week 1. Install it on the Product Page and local 
 Clone **your own repository** and ask your coding agent to document the exact install and run commands here and in `AGENTS.md`.
 
 ```bash
-git clone https://github.com/building-with-ai-f26/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/building-with-ai-f26/jw10214-scenespeak.git
+cd jw10214-scenespeak
 ```
 
 If your app needs API keys, use a local environment file such as `.env`. Keep private keys out of source code, browser code, screenshots, and commits. The template ignores `.env`; `.env.example` contains placeholders only.
-## SceneSpeak: See the scene. Say it right.
