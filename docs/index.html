@@ -158,10 +158,10 @@
       <h2>Product Showcase (Prototype / Live App / 2-Min Video)</h2>
       <p>
         <strong>Current Status:</strong> Build 1: local prototype<br />
-        <strong>Demo:</strong> [Add a screenshot or GIF now; add the live cloud app URL in Build 5.]
+        <strong>Demo:</strong> Clickable prototype with sample data (no AI yet). Flow: paste text → key phrases → scene + listen &amp; repeat → "your turn" reply → feedback.
       </p>
-      <p class="meta">
-        Ask your coding agent to embed a screenshot or GIF of your local prototype for Build 1. Keep this evidence current, then add your cloud app link and two-minute video in Build 5.
+      <p>
+        <img src="demo.gif" alt="SceneSpeak prototype demo: finding key phrases, listening to a scene, replying in your turn, and getting feedback" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px;" />
       </p>
     </section>
 
@@ -181,6 +181,20 @@
         <li><strong>Out of Scope #1:</strong> Voice and pronunciation scoring.</li>
         <li><strong>Out of Scope #2:</strong> Community or social features.</li>
         <li><strong>Out of Scope #3:</strong> Recording or transcribing audio inside the app (v1 takes pasted text or transcripts).</li>
+      </ul>
+
+      <p><strong>Learning method:</strong> Real context → Key phrases → Scene → Shadow &amp; speak</p>
+      <ol>
+        <li><strong>Real context:</strong> start from something the user actually read or heard today.</li>
+        <li><strong>Key phrases:</strong> pick the 5–10 phrases most worth learning from it.</li>
+        <li><strong>Scene:</strong> show each phrase in a short real-life dialogue, so users see <em>when</em> to use it.</li>
+        <li><strong>Shadow &amp; speak:</strong> the user first repeats the dialogue out loud (shadowing), then joins a role-play where the scene is set up so they naturally need the phrase.</li>
+      </ol>
+      <p><strong>Roadmap:</strong></p>
+      <ul>
+        <li><strong>Build 1 (now):</strong> all 4 steps with sample data: read-aloud with the browser's built-in voice, and a typed "your turn" reply.</li>
+        <li><strong>Build 2:</strong> real AI picks phrases, writes scenes and "your turn" lines, and gives real feedback on the reply.</li>
+        <li><strong>Build 3+:</strong> voice role-play: the user speaks the reply instead of typing it.</li>
       </ul>
 
       <h3>3. How It Works Under the Hood & Riskiest Assumption (Week 2+)</h3>
@@ -216,10 +230,10 @@
       <div class="log-entry">
         <h3>Build 1 · Intent.md & Throwaway Prototype (Due Nov 9)</h3>
         <ul>
-          <li><strong>What shipped:</strong> [What you actually built; link your local prototype screenshot or GIF above.]</li>
-          <li><strong>Things learned with AI:</strong> [What you learned from AI practice and Terminus Episodes 1 and 2.]</li>
-          <li><strong>What broke / changed in PRD:</strong> [Fill in]</li>
-          <li><strong>Cost & time this week:</strong> $[0.00] · [0] hours</li>
+          <li><strong>What shipped:</strong> A clickable local prototype with sample data (no AI yet) showing the full loop: key phrases → scene with read-aloud → "your turn" reply → phrasebook. Plus PRD v1 and a demo GIF.</li>
+          <li><strong>Things learned with AI:</strong> Finishing the setup guide was a big unlock for me as a PM: I can now build small things on my own and focus on the product.</li>
+          <li><strong>What broke / changed in PRD:</strong> npm install failed with "permission denied". Claude said this is a common Mac issue, so we pointed npm to a folder in my home directory instead of using sudo. PRD: renamed to SceneSpeak and added a learning method + roadmap.</li>
+          <li><strong>Cost & time this week:</strong> $0 · 4 hours</li>
         </ul>
       </div>
 
