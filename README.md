@@ -43,3 +43,4 @@ cd <your-repo-name>
 ```
 
 If your app needs API keys, use a local environment file such as `.env`. Keep private keys out of source code, browser code, screenshots, and commits. The template ignores `.env`; `.env.example` contains placeholders only.
+## PhrasePal: Snap your day, learn the phrases.
