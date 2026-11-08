@@ -37,11 +37,10 @@ Create your PostHog account in Week 1. Install it on the Product Page and local 
 
 ## Local setup
 
-Clone **your own repository** and ask your coding agent to document the exact install and run commands here and in `AGENTS.md`.
-
 ```bash
 git clone https://github.com/building-with-ai-f26/jw10214-scenespeak.git
 cd jw10214-scenespeak
+open app/index.html   # no install needed: one HTML file, sample data
 ```
 
 If your app needs API keys, use a local environment file such as `.env`. Keep private keys out of source code, browser code, screenshots, and commits. The template ignores `.env`; `.env.example` contains placeholders only.
